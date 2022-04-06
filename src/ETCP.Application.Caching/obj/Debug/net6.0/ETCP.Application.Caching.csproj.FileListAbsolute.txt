@@ -1,0 +1,12 @@
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.csproj.AssemblyReference.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.GeneratedMSBuildEditorConfig.editorconfig
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.AssemblyInfoInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.AssemblyInfo.cs
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.csproj.CoreCompileInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\bin\Debug\net6.0\ETCP.Application.Caching.deps.json
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\bin\Debug\net6.0\ETCP.Application.Caching.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\bin\Debug\net6.0\ETCP.Application.Caching.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\refint\ETCP.Application.Caching.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ETCP.Application.Caching.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Caching\obj\Debug\net6.0\ref\ETCP.Application.Caching.dll

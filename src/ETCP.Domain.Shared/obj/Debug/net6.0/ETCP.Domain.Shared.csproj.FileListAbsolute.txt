@@ -1,0 +1,12 @@
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.csproj.AssemblyReference.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.GeneratedMSBuildEditorConfig.editorconfig
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.AssemblyInfoInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.AssemblyInfo.cs
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.csproj.CoreCompileInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\bin\Debug\net6.0\ETCP.Domain.Shared.deps.json
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\bin\Debug\net6.0\ETCP.Domain.Shared.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\bin\Debug\net6.0\ETCP.Domain.Shared.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\refint\ETCP.Domain.Shared.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ETCP.Domain.Shared.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Domain.Shared\obj\Debug\net6.0\ref\ETCP.Domain.Shared.dll

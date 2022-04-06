@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <DocumentationFile>..\ETCP.HttpApi.Hosting\Resources\ETCP.Application.Contracts.xml</DocumentationFile>
+  </PropertyGroup>
+	<ItemGroup>
+		<ProjectReference Include="..\ETCP.Domain.Shared\ETCP.Domain.Shared.csproj" />
+	</ItemGroup>
+</Project>

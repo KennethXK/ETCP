@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />
+		<PackageReference Include="Swashbuckle.AspNetCore.Filters" Version="7.0.2" />
+		<PackageReference Include="Volo.Abp.AspNetCore" Version="5.2.0" />
+		
+		<ProjectReference Include="..\ETCP.Domain.Shared\ETCP.Domain.Shared.csproj" />
+		<ProjectReference Include="..\ETCP.Domain\ETCP.Domain.csproj" />
+	</ItemGroup>
+</Project>

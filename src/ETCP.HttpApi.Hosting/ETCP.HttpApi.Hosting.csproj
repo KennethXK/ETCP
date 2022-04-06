@@ -1,0 +1,41 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+	<Import Project="..\..\common.props" />
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+	  <GenerateDocumentationFile>False</GenerateDocumentationFile>
+	<DocumentationFile>Resources\ETCP.HttpApi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Abp.AspNetCore" Version="7.1.0" />    
+	<PackageReference Include="log4net" Version="2.0.14" />    
+	<PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="5.2.0" />
+    <PackageReference Include="Volo.Abp.Core" Version="5.2.0" />
+	<PackageReference Include="Volo.Abp.Autofac" Version="5.2.0" />
+
+	<ProjectReference Include="..\ETCP.BackgroundJobs\ETCP.BackgroundJobs.csproj" />
+	<ProjectReference Include="..\ETCP.EntityFrameworkCore\ETCP.EntityFrameworkCore.csproj" />
+	<ProjectReference Include="..\ETCP.HttpApi\ETCP.HttpApi.csproj" />
+	<ProjectReference Include="..\ETCP.Swagger\ETCP.Swagger.csproj" />
+	<ProjectReference Include="..\ETCP.ToolKits\ETCP.ToolKits.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Resources\log4net.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\ETCP.Application.Contracts.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ETCP.Domain.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Update="Resources\ETCP.HttpApi.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

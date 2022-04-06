@@ -1,0 +1,12 @@
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.csproj.AssemblyReference.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.GeneratedMSBuildEditorConfig.editorconfig
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.AssemblyInfoInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.AssemblyInfo.cs
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.csproj.CoreCompileInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\bin\Debug\net6.0\ETCP.BackgroundJobs.deps.json
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\bin\Debug\net6.0\ETCP.BackgroundJobs.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\bin\Debug\net6.0\ETCP.BackgroundJobs.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\refint\ETCP.BackgroundJobs.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ETCP.BackgroundJobs.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.BackgroundJobs\obj\Debug\net6.0\ref\ETCP.BackgroundJobs.dll

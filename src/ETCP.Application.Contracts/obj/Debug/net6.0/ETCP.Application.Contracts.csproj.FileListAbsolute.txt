@@ -1,0 +1,16 @@
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Application.Contracts.deps.json
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Application.Contracts.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Application.Contracts.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Application.Contracts.xml
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.csproj.AssemblyReference.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.AssemblyInfoInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.AssemblyInfo.cs
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.csproj.CoreCompileInputs.cache
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\refint\ETCP.Application.Contracts.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ref\ETCP.Application.Contracts.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Domain.Shared.dll
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\bin\Debug\net6.0\ETCP.Domain.Shared.pdb
+E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application.Contracts\obj\Debug\net6.0\ETCP.Application.Contracts.csproj.CopyComplete
