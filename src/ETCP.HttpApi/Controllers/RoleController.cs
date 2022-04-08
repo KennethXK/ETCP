@@ -14,5 +14,9 @@ namespace ETCP.HttpApi.Controllers
     [ApiExplorerSettings(GroupName = Grouping.GroupName_v1)]
     public class RoleController : AbpController
     {
+        [HttpPost]
+        [Route("SetRole")]
+        public async Task SetRole() 
+        { }
     }
 }

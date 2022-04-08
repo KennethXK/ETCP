@@ -28,7 +28,7 @@ namespace ETCP.Swagger.Filters
                 new OpenApiTag {
                     Name = "Role",
                     Description = "用户角色权限接口",
-                    ExternalDocs = new OpenApiExternalDocs { Description = "用户角色权限接口" }
+                    ExternalDocs = new OpenApiExternalDocs { Description = "Role" }
                 },
                 new OpenApiTag {
                     Name = "HelloWorld",
@@ -41,7 +41,7 @@ namespace ETCP.Swagger.Filters
 
             var groupName = context.ApiDescriptions.FirstOrDefault()?.GroupName;
 
-            var apis = context.ApiDescriptions.GetType().GetField("_source", BindingFlags.NonPublic | BindingFlags.Instance).GetValue(context.ApiDescriptions) as IEnumerable<ApiDescription>;
+            var apis = context.ApiDescriptions.GetType().GetField("_source", BindingFlags.NonPublic | BindingFlags.Instance)?.GetValue(context.ApiDescriptions) as IEnumerable<ApiDescription>;
 
             var controllers = apis.Where(x => x.GroupName != groupName).Select(x => ((ControllerActionDescriptor)x.ActionDescriptor).ControllerName).Distinct();
 
