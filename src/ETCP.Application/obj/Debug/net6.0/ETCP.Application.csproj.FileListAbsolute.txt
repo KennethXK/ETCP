@@ -10,3 +10,15 @@ E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Applicati
 E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application\obj\Debug\net6.0\refint\ETCP.Application.dll
 E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.pdb
 E:\Program\DotNet\ETCP\ETCP\src\ETCP.Application\obj\Debug\net6.0\ref\ETCP.Application.dll
+F:\项目代码\ETCP\src\ETCP.Application\bin\Debug\net6.0\ETCP.Application.deps.json
+F:\项目代码\ETCP\src\ETCP.Application\bin\Debug\net6.0\ETCP.Application.dll
+F:\项目代码\ETCP\src\ETCP.Application\bin\Debug\net6.0\ETCP.Application.pdb
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.csproj.AssemblyReference.cache
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.AssemblyInfoInputs.cache
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.AssemblyInfo.cs
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.csproj.CoreCompileInputs.cache
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.dll
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\refint\ETCP.Application.dll
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ETCP.Application.pdb
+F:\项目代码\ETCP\src\ETCP.Application\obj\Debug\net6.0\ref\ETCP.Application.dll

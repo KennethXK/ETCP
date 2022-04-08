@@ -5,5 +5,8 @@
     <TargetFramework>net6.0</TargetFramework>
     <Nullable>enable</Nullable>
   </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="5.2.0" />
+  </ItemGroup>
 
 </Project>

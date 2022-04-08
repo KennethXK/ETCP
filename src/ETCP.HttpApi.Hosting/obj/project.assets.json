@@ -533,6 +533,55 @@
           "lib/netcoreapp2.0/_._": {}
         }
       },
+      "Microsoft.EntityFrameworkCore/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/_._": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
         "type": "package",
         "build": {
@@ -982,6 +1031,15 @@
           }
         }
       },
+      "MySqlConnector/2.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "type": "package",
         "dependencies": {
@@ -1117,6 +1175,20 @@
         },
         "runtime": {
           "lib/net5.0/NUglify.dll": {}
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "[6.0.0, 7.0.0)",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "MySqlConnector": "2.0.0"
+        },
+        "compile": {
+          "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -3170,6 +3242,34 @@
           "lib/netstandard2.0/Volo.Abp.DistributedLocking.Abstractions.dll": {}
         }
       },
+      "Volo.Abp.EntityFrameworkCore/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Volo.Abp.Ddd.Domain": "5.2.0",
+          "Volo.Abp.Json": "5.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Volo.Abp.EntityFrameworkCore.MySQL/5.2.0": {
+        "type": "package",
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
+          "Volo.Abp.EntityFrameworkCore": "5.2.0"
+        },
+        "compile": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {}
+        },
+        "runtime": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {}
+        }
+      },
       "Volo.Abp.EventBus/5.2.0": {
         "type": "package",
         "dependencies": {
@@ -3726,7 +3826,9 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "Volo.Abp.Identity.Domain": "5.2.0"
+          "ETCP.Domain.Shared": "1.0.0",
+          "Volo.Abp.Identity.Domain": "5.2.0",
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
         },
         "compile": {
           "bin/placeholder/ETCP.Domain.dll": {}
@@ -3738,6 +3840,9 @@
       "ETCP.Domain.Shared/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
+        },
         "compile": {
           "bin/placeholder/ETCP.Domain.Shared.dll": {}
         },
@@ -3748,6 +3853,10 @@
       "ETCP.EntityFrameworkCore/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "ETCP.Domain": "1.0.0",
+          "Volo.Abp.EntityFrameworkCore.MySQL": "5.2.0"
+        },
         "compile": {
           "bin/placeholder/ETCP.EntityFrameworkCore.dll": {}
         },
@@ -4594,6 +4703,62 @@
         "version.txt"
       ]
     },
+    "Microsoft.EntityFrameworkCore/6.0.0": {
+      "sha512": "BdHAtHzfQt3rltgSoYamSlHg2qawPtEDT677/bcSJlO8lQ/lj6XWlusM0TOt59O8Sbqm3hAC1a+4cEBxmv56pw==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.xml",
+        "microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+      "sha512": "MrMLWEw4JsZdkVci0MkkGj+fSjZrXnm3m6UNuIEwytiAAIZPvJs3iPpnzfK4qM7np82W374voYm96q7QCdL0ow==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.xml",
+        "microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.abstractions.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
+      "sha512": "BqWBL05PUDKwPwLeQCJdc2R4cIUycXV9UmuSjYfux2fcgyet8I2eYnOWlA7NgsDwRVcxW26vxvNQ0wuc8UAcLA==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "analyzers/dotnet/cs/Microsoft.EntityFrameworkCore.Analyzers.dll",
+        "lib/netstandard2.0/_._",
+        "microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.analyzers.nuspec"
+      ]
+    },
+    "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+      "sha512": "rTRzrSbkUXoCGijlT9O7oq7JfuaU1/+VFyfSBjADQuOsfa0FCrWeB8ybue5CDvO/D6uW0kvPvlKfY2kwxXOOdg==",
+      "type": "package",
+      "path": "microsoft.entityframeworkcore.relational/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll",
+        "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.xml",
+        "microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512",
+        "microsoft.entityframeworkcore.relational.nuspec"
+      ]
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
       "type": "package",
@@ -5327,6 +5492,35 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "MySqlConnector/2.0.0": {
+      "sha512": "EY0KXqQas+QvdZQU0NPkqBSfJitWAl8IUCg0v/Qn0P7f/KApJTFJFm8czYWoDPyewUjPHrAnE/cSYzzSFGc8Ng==",
+      "type": "package",
+      "path": "mysqlconnector/2.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "lib/net45/MySqlConnector.dll",
+        "lib/net45/MySqlConnector.xml",
+        "lib/net461/MySqlConnector.dll",
+        "lib/net461/MySqlConnector.xml",
+        "lib/net471/MySqlConnector.dll",
+        "lib/net471/MySqlConnector.xml",
+        "lib/net5.0/MySqlConnector.dll",
+        "lib/net5.0/MySqlConnector.xml",
+        "lib/net6.0/MySqlConnector.dll",
+        "lib/net6.0/MySqlConnector.xml",
+        "lib/netcoreapp3.1/MySqlConnector.dll",
+        "lib/netcoreapp3.1/MySqlConnector.xml",
+        "lib/netstandard2.0/MySqlConnector.dll",
+        "lib/netstandard2.0/MySqlConnector.xml",
+        "lib/netstandard2.1/MySqlConnector.dll",
+        "lib/netstandard2.1/MySqlConnector.xml",
+        "logo.png",
+        "mysqlconnector.2.0.0.nupkg.sha512",
+        "mysqlconnector.nuspec"
+      ]
+    },
     "NETStandard.Library/1.6.1": {
       "sha512": "WcSp3+vP+yHNgS8EV5J7pZ9IRpeDuARBPN28by8zqff1wJQXm26PVU8L3/fYLBJVU7BtDyqNVWq2KlCVvSSR4A==",
       "type": "package",
@@ -5500,6 +5694,20 @@
         "nuglify.1.16.1.nupkg.sha512",
         "nuglify.nuspec",
         "nuglify.png"
+      ]
+    },
+    "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+      "sha512": "iWloXFjpN6BllZA9oPqZTW9mNtFV5Q6DFv0WwFyh1IuOJ71btS3ifTwpLmaFXSlXzuEU9o7Rul0dU0WiwkOq0Q==",
+      "type": "package",
+      "path": "pomelo.entityframeworkcore.mysql/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "icon.png",
+        "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll",
+        "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.xml",
+        "pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512",
+        "pomelo.entityframeworkcore.mysql.nuspec"
       ]
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
@@ -10533,6 +10741,34 @@
         "volo.abp.distributedlocking.abstractions.nuspec"
       ]
     },
+    "Volo.Abp.EntityFrameworkCore/5.2.0": {
+      "sha512": "cP0BX0mw99c5kzCVg7Eeu+GBmVz1YotUnupTqXl+YAUVw1RqbDLtMAyaML70qOVcmqgR9TNW7y02p6MJDjfIjA==",
+      "type": "package",
+      "path": "volo.abp.entityframeworkcore/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.dll",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.pdb",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.xml",
+        "volo.abp.entityframeworkcore.5.2.0.nupkg.sha512",
+        "volo.abp.entityframeworkcore.nuspec"
+      ]
+    },
+    "Volo.Abp.EntityFrameworkCore.MySQL/5.2.0": {
+      "sha512": "xA4nTvX6ToId8/ELq3HdIiGeu787selySj6adZDJn+dSu0alPwtBlqLaJE3ZSipUmdeUqBq9H0s8ovgskWxL8w==",
+      "type": "package",
+      "path": "volo.abp.entityframeworkcore.mysql/5.2.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.dll",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.pdb",
+        "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.xml",
+        "volo.abp.entityframeworkcore.mysql.5.2.0.nupkg.sha512",
+        "volo.abp.entityframeworkcore.mysql.nuspec"
+      ]
+    },
     "Volo.Abp.EventBus/5.2.0": {
       "sha512": "kyjn0Im0gSmJdXkOzLzxiPJyL0uvy7LnBWrHgzQxQzzOQvxEJOkSivTepj10RXFRHXcnv/wqL2UapCiVj1/EiA==",
       "type": "package",
@@ -11135,19 +11371,20 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\xk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
+      "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
       "projectName": "ETCP.HttpApi.Hosting",
-      "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\obj\\",
+      "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
+      "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+      "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "F:\\项目代码\\NuGet.Config",
+        "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -11155,26 +11392,28 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {},
+        "https://www.myget.org/F/blazorise/api/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
-              "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj"
+            "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj"
             },
-            "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
-              "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj"
+            "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj"
             },
-            "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
-              "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj"
+            "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj"
             },
-            "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
-              "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj"
+            "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj"
             },
-            "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
-              "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj"
+            "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj"
             }
           }
         }

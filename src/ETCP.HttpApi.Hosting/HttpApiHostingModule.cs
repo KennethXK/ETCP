@@ -1,4 +1,5 @@
 ﻿using Abp.AspNetCore.Mvc.ExceptionHandling;
+using ETCP.EntityFrameworkCore;
 using ETCP.HttpApi.Hosting.Filters;
 using ETCP.HttpApi.Hosting.Middleware;
 using ETCP.Swagger;
@@ -18,7 +19,8 @@ namespace ETCP.HttpApi.Hosting
      typeof(AbpAspNetCoreMvcModule),
      typeof(AbpAutofacModule),
      typeof(HttpApiModule),
-     typeof(SwaggerModule)
+     typeof(SwaggerModule),
+     typeof(EntityFrameworkCoreModule)
   )]
     public class HttpApiHostingModule : AbpModule
     {

@@ -25,7 +25,7 @@ namespace ETCP.Swagger
         /// <summary>
         /// Swagger描述信息
         /// </summary>
-        private static readonly string description = @"<b>Blog</b>：<a target=""_blank"" href=""https://meowv.com"">https://meowv.com</a> <b>GitHub</b>：<a target=""_blank"" href=""https://github.com/Meowv/Blog"">https://github.com/Meowv/Blog</a> <b>Hangfire</b>：<a target=""_blank"" href=""/hangfire"">任务调度中心</a> <code>Powered by .NET Core 6.0 on Linux</code>";
+        private static readonly string description = "";
 
 
         /// <summary>
@@ -36,44 +36,22 @@ namespace ETCP.Swagger
             new SwaggerApiInfo
             {
                 UrlPrefix = Grouping.GroupName_v1,
-                Name = "博客前台接口",
+                Name = "用户角色权限接口",
                 OpenApiInfo = new OpenApiInfo
                 {
                     Version = version,
-                    Title = "博客前台接口",
+                    Title = "用户角色权限接口",
                     Description = description
                 }
             },
             new SwaggerApiInfo
             {
                 UrlPrefix = Grouping.GroupName_v2,
-                Name = "博客后台接口",
-                OpenApiInfo = new OpenApiInfo
-                {
-                    Version = version,
-                    Title = "博客后台接口",
-                    Description = description
-                }
-            },
-            new SwaggerApiInfo
-            {
-                UrlPrefix = Grouping.GroupName_v3,
                 Name = "通用公共接口",
                 OpenApiInfo = new OpenApiInfo
                 {
                     Version = version,
                     Title = "通用公共接口",
-                    Description = description
-                }
-            },
-            new SwaggerApiInfo
-            {
-                UrlPrefix = Grouping.GroupName_v4,
-                Name = "JWT授权接口",
-                OpenApiInfo = new OpenApiInfo
-                {
-                    Version = version,
-                    Title = "JWT授权接口",
                     Description = description
                 }
             }

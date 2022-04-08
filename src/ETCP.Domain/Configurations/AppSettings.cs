@@ -78,6 +78,11 @@ namespace ETCP.Domain.Configurations
             /// RedisConnectionString
             /// </summary>
             public static string RedisConnectionString => _config["Caching:RedisConnectionString"];
+
+            /// <summary>
+            /// 是否开启
+            /// </summary>
+            public static bool IsOpen => Convert.ToBoolean(_config["Caching:IsOpen"]);
         }
 
         /// <summary>

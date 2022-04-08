@@ -6,7 +6,11 @@
     <Nullable>enable</Nullable>
 	  <DocumentationFile>..\ETCP.HttpApi.Hosting\Resources\ETCP.Domain.xml</DocumentationFile>
   </PropertyGroup>
-	<ItemGroup>
-		<PackageReference Include="Volo.Abp.Identity.Domain" Version="5.2.0" />
-	</ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Identity.Domain" Version="5.2.0" />
+    <PackageReference Include="Volo.Abp.Identity.Domain.Shared" Version="5.2.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ETCP.Domain.Shared\ETCP.Domain.Shared.csproj" />
+  </ItemGroup>
 </Project>

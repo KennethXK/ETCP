@@ -867,6 +867,53 @@
         }
       },
       "Microsoft.CSharp/4.7.0": {},
+      "Microsoft.EntityFrameworkCore/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Abstractions": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Analyzers": "6.0.0",
+          "Microsoft.Extensions.Caching.Memory": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "Microsoft.Extensions.Logging": "6.0.0",
+          "System.Collections.Immutable": "6.0.0",
+          "System.Diagnostics.DiagnosticSource": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Abstractions.dll": {}
+        }
+      },
+      "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {},
+      "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "6.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.21.52301"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Microsoft.EntityFrameworkCore.Relational.dll": {}
+        }
+      },
       "Microsoft.Extensions.ApiDescription.Server/3.0.0": {},
       "Microsoft.Extensions.Caching.Abstractions/6.0.0": {
         "dependencies": {
@@ -1077,6 +1124,17 @@
           "lib/net6.0/Microsoft.Win32.SystemEvents.dll": {}
         }
       },
+      "MySqlConnector/2.0.0": {
+        "runtime": {
+          "lib/net6.0/MySqlConnector.dll": {
+            "assemblyVersion": "2.0.0.0",
+            "fileVersion": "2.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/MySqlConnector.dll": {}
+        }
+      },
       "NETStandard.Library/1.6.1": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -1227,6 +1285,22 @@
         },
         "compile": {
           "lib/net5.0/NUglify.dll": {}
+        }
+      },
+      "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Microsoft.Extensions.DependencyInjection": "6.0.0",
+          "MySqlConnector": "2.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {
+            "assemblyVersion": "6.0.0.0",
+            "fileVersion": "6.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Pomelo.EntityFrameworkCore.MySql.dll": {}
         }
       },
       "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {},
@@ -2595,6 +2669,38 @@
           "lib/netstandard2.0/Volo.Abp.DistributedLocking.Abstractions.dll": {}
         }
       },
+      "Volo.Abp.EntityFrameworkCore/5.2.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "6.0.0",
+          "Microsoft.EntityFrameworkCore.Relational": "6.0.0",
+          "Volo.Abp.Ddd.Domain": "5.2.0",
+          "Volo.Abp.Json": "5.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.dll": {}
+        }
+      },
+      "Volo.Abp.EntityFrameworkCore.MySQL/5.2.0": {
+        "dependencies": {
+          "Pomelo.EntityFrameworkCore.MySql": "6.0.0",
+          "Volo.Abp.EntityFrameworkCore": "5.2.0"
+        },
+        "runtime": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {
+            "assemblyVersion": "5.2.0.0",
+            "fileVersion": "5.2.0.0"
+          }
+        },
+        "compile": {
+          "lib/net6.0/Volo.Abp.EntityFrameworkCore.MySQL.dll": {}
+        }
+      },
       "Volo.Abp.EventBus/5.2.0": {
         "dependencies": {
           "Volo.Abp.BackgroundWorkers": "5.2.0",
@@ -3220,7 +3326,9 @@
       },
       "ETCP.Domain/1.0.0": {
         "dependencies": {
-          "Volo.Abp.Identity.Domain": "5.2.0"
+          "ETCP.Domain.Shared": "1.0.0",
+          "Volo.Abp.Identity.Domain": "5.2.0",
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
         },
         "runtime": {
           "ETCP.Domain.dll": {}
@@ -3230,6 +3338,9 @@
         }
       },
       "ETCP.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
+        },
         "runtime": {
           "ETCP.Domain.Shared.dll": {}
         },
@@ -3238,6 +3349,10 @@
         }
       },
       "ETCP.EntityFrameworkCore/1.0.0": {
+        "dependencies": {
+          "ETCP.Domain": "1.0.0",
+          "Volo.Abp.EntityFrameworkCore.MySQL": "5.2.0"
+        },
         "runtime": {
           "ETCP.EntityFrameworkCore.dll": {}
         },
@@ -5254,6 +5369,34 @@
       "path": "microsoft.csharp/4.7.0",
       "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
+    "Microsoft.EntityFrameworkCore/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BdHAtHzfQt3rltgSoYamSlHg2qawPtEDT677/bcSJlO8lQ/lj6XWlusM0TOt59O8Sbqm3hAC1a+4cEBxmv56pw==",
+      "path": "microsoft.entityframeworkcore/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Abstractions/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MrMLWEw4JsZdkVci0MkkGj+fSjZrXnm3m6UNuIEwytiAAIZPvJs3iPpnzfK4qM7np82W374voYm96q7QCdL0ow==",
+      "path": "microsoft.entityframeworkcore.abstractions/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.abstractions.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Analyzers/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-BqWBL05PUDKwPwLeQCJdc2R4cIUycXV9UmuSjYfux2fcgyet8I2eYnOWlA7NgsDwRVcxW26vxvNQ0wuc8UAcLA==",
+      "path": "microsoft.entityframeworkcore.analyzers/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.analyzers.6.0.0.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Relational/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTRzrSbkUXoCGijlT9O7oq7JfuaU1/+VFyfSBjADQuOsfa0FCrWeB8ybue5CDvO/D6uW0kvPvlKfY2kwxXOOdg==",
+      "path": "microsoft.entityframeworkcore.relational/6.0.0",
+      "hashPath": "microsoft.entityframeworkcore.relational.6.0.0.nupkg.sha512"
+    },
     "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
       "type": "package",
       "serviceable": true,
@@ -5485,6 +5628,13 @@
       "path": "microsoft.win32.systemevents/6.0.0",
       "hashPath": "microsoft.win32.systemevents.6.0.0.nupkg.sha512"
     },
+    "MySqlConnector/2.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-EY0KXqQas+QvdZQU0NPkqBSfJitWAl8IUCg0v/Qn0P7f/KApJTFJFm8czYWoDPyewUjPHrAnE/cSYzzSFGc8Ng==",
+      "path": "mysqlconnector/2.0.0",
+      "hashPath": "mysqlconnector.2.0.0.nupkg.sha512"
+    },
     "NETStandard.Library/1.6.1": {
       "type": "package",
       "serviceable": true,
@@ -5547,6 +5697,13 @@
       "sha512": "sha512-iAbP7HDVq4TEMzQ23/RyS1CcnM7g0Vx6S4hgg/ODyEUK/1rp9L0oFSsFhN4k5viivknlOBSXez1X+tN8Xfcz5g==",
       "path": "nuglify/1.16.1",
       "hashPath": "nuglify.1.16.1.nupkg.sha512"
+    },
+    "Pomelo.EntityFrameworkCore.MySql/6.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-iWloXFjpN6BllZA9oPqZTW9mNtFV5Q6DFv0WwFyh1IuOJ71btS3ifTwpLmaFXSlXzuEU9o7Rul0dU0WiwkOq0Q==",
+      "path": "pomelo.entityframeworkcore.mysql/6.0.0",
+      "hashPath": "pomelo.entityframeworkcore.mysql.6.0.0.nupkg.sha512"
     },
     "runtime.debian.8-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
       "type": "package",
@@ -6450,6 +6607,20 @@
       "sha512": "sha512-TrKUgtnohtMBiSVEZKiCZ/PohN+GsLT3UyvqwJGyuDzUc0GiTbzD/lz7yapumltpkVRV5SW+FQZKd7+kFbUG/w==",
       "path": "volo.abp.distributedlocking.abstractions/5.2.0",
       "hashPath": "volo.abp.distributedlocking.abstractions.5.2.0.nupkg.sha512"
+    },
+    "Volo.Abp.EntityFrameworkCore/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cP0BX0mw99c5kzCVg7Eeu+GBmVz1YotUnupTqXl+YAUVw1RqbDLtMAyaML70qOVcmqgR9TNW7y02p6MJDjfIjA==",
+      "path": "volo.abp.entityframeworkcore/5.2.0",
+      "hashPath": "volo.abp.entityframeworkcore.5.2.0.nupkg.sha512"
+    },
+    "Volo.Abp.EntityFrameworkCore.MySQL/5.2.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-xA4nTvX6ToId8/ELq3HdIiGeu787selySj6adZDJn+dSu0alPwtBlqLaJE3ZSipUmdeUqBq9H0s8ovgskWxL8w==",
+      "path": "volo.abp.entityframeworkcore.mysql/5.2.0",
+      "hashPath": "volo.abp.entityframeworkcore.mysql.5.2.0.nupkg.sha512"
     },
     "Volo.Abp.EventBus/5.2.0": {
       "type": "package",

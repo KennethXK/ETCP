@@ -1373,6 +1373,19 @@
         "runtime": {
           "lib/netstandard2.0/Volo.Abp.VirtualFileSystem.dll": {}
         }
+      },
+      "ETCP.Domain.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
+        },
+        "compile": {
+          "bin/placeholder/ETCP.Domain.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ETCP.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -4364,27 +4377,35 @@
         "volo.abp.virtualfilesystem.5.2.0.nupkg.sha512",
         "volo.abp.virtualfilesystem.nuspec"
       ]
+    },
+    "ETCP.Domain.Shared/1.0.0": {
+      "type": "project",
+      "path": "../ETCP.Domain.Shared/ETCP.Domain.Shared.csproj",
+      "msbuildProject": "../ETCP.Domain.Shared/ETCP.Domain.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
-      "Volo.Abp.Identity.Domain >= 5.2.0"
+      "ETCP.Domain.Shared >= 1.0.0",
+      "Volo.Abp.Identity.Domain >= 5.2.0",
+      "Volo.Abp.Identity.Domain.Shared >= 5.2.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Administrator\\.nuget\\packages\\": {}
+    "C:\\Users\\xk\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
+      "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
       "projectName": "ETCP.Domain",
-      "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
-      "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-      "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\obj\\",
+      "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
+      "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+      "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "F:\\项目代码\\NuGet.Config",
+        "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -4392,12 +4413,18 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {},
+        "https://packagesource": {},
+        "https://www.myget.org/F/blazorise/api/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
+              "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4411,6 +4438,10 @@
         "targetAlias": "net6.0",
         "dependencies": {
           "Volo.Abp.Identity.Domain": {
+            "target": "Package",
+            "version": "[5.2.0, )"
+          },
+          "Volo.Abp.Identity.Domain.Shared": {
             "target": "Package",
             "version": "[5.2.0, )"
           }

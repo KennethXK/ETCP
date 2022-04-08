@@ -8,7 +8,9 @@
     ".NETCoreApp,Version=v6.0": {
       "ETCP.Domain/1.0.0": {
         "dependencies": {
-          "Volo.Abp.Identity.Domain": "5.2.0"
+          "ETCP.Domain.Shared": "1.0.0",
+          "Volo.Abp.Identity.Domain": "5.2.0",
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
         },
         "runtime": {
           "ETCP.Domain.dll": {}
@@ -1083,6 +1085,14 @@
             "fileVersion": "5.2.0.0"
           }
         }
+      },
+      "ETCP.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
+        },
+        "runtime": {
+          "ETCP.Domain.Shared.dll": {}
+        }
       }
     }
   },
@@ -1805,6 +1815,11 @@
       "sha512": "sha512-mRJcNKA44A3pc1tJVxXIz3Tja6PlROB4BbLqOrX8xVgLpmYj8dOg2RfZjj9aWGis/l/dDKlKEz81xi78Cm/gdQ==",
       "path": "volo.abp.virtualfilesystem/5.2.0",
       "hashPath": "volo.abp.virtualfilesystem.5.2.0.nupkg.sha512"
+    },
+    "ETCP.Domain.Shared/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

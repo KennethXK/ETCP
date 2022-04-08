@@ -1084,13 +1084,18 @@
       },
       "ETCP.Domain/1.0.0": {
         "dependencies": {
-          "Volo.Abp.Identity.Domain": "5.2.0"
+          "ETCP.Domain.Shared": "1.0.0",
+          "Volo.Abp.Identity.Domain": "5.2.0",
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
         },
         "runtime": {
           "ETCP.Domain.dll": {}
         }
       },
       "ETCP.Domain.Shared/1.0.0": {
+        "dependencies": {
+          "Volo.Abp.Identity.Domain.Shared": "5.2.0"
+        },
         "runtime": {
           "ETCP.Domain.Shared.dll": {}
         }

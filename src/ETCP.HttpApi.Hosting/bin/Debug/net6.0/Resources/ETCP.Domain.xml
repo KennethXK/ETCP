@@ -49,6 +49,11 @@
             RedisConnectionString
             </summary>
         </member>
+        <member name="P:ETCP.Domain.Configurations.AppSettings.Caching.IsOpen">
+            <summary>
+            是否开启
+            </summary>
+        </member>
         <member name="T:ETCP.Domain.Configurations.AppSettings.Hangfire">
             <summary>
             Hangfire

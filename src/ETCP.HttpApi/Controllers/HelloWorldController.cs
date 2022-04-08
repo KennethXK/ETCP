@@ -12,7 +12,7 @@ namespace ETCP.HttpApi.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    [ApiExplorerSettings(GroupName = Grouping.GroupName_v3)]
+    [ApiExplorerSettings(GroupName = Grouping.GroupName_v2)]
     public class HelloWorldController : AbpController
     {
         private readonly IHelloWorldService _helloWorldService;

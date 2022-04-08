@@ -1,20 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj": {}
+    "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj": {}
   },
   "projects": {
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj",
         "projectName": "ETCP.Application",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +23,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -72,17 +75,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj",
         "projectName": "ETCP.BackgroundJobs",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -90,7 +94,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -126,17 +132,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj",
         "projectName": "ETCP.Domain.Shared",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -144,61 +151,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
-            "projectReferences": {}
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
-        }
-      }
-    },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
-        "projectName": "ETCP.Domain",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\obj\\",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
-        ],
-        "originalTargetFrameworks": [
-          "net6.0"
-        ],
-        "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -216,7 +171,7 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Volo.Abp.Identity.Domain": {
+            "Volo.Abp.Identity.Domain.Shared": {
               "target": "Package",
               "version": "[5.2.0, )"
             }
@@ -240,17 +195,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj",
-        "projectName": "ETCP.EntityFrameworkCore",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\obj\\",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
+        "projectName": "ETCP.Domain",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -258,12 +214,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -275,6 +237,16 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.Identity.Domain": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            },
+            "Volo.Abp.Identity.Domain.Shared": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -294,17 +266,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
-        "projectName": "ETCP.HttpApi.Hosting",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi.Hosting\\obj\\",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj",
+        "projectName": "ETCP.EntityFrameworkCore",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -312,26 +285,95 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Volo.Abp.EntityFrameworkCore.MySQL": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
+        "projectName": "ETCP.HttpApi.Hosting",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\ETCP.HttpApi.Hosting.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi.Hosting\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.BackgroundJobs\\ETCP.BackgroundJobs.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.EntityFrameworkCore\\ETCP.EntityFrameworkCore.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj"
               }
             }
           }
@@ -389,17 +431,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj",
         "projectName": "ETCP.HttpApi",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.HttpApi\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\ETCP.HttpApi.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.HttpApi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -407,17 +450,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Application\\ETCP.Application.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
               }
             }
           }
@@ -460,17 +505,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj",
         "projectName": "ETCP.Swagger",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Swagger\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\ETCP.Swagger.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.Swagger\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -478,17 +524,19 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain.Shared\\ETCP.Domain.Shared.csproj"
               },
-              "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj": {
-                "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj"
+              "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj": {
+                "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.Domain\\ETCP.Domain.csproj"
               }
             }
           }
@@ -535,17 +583,18 @@
         }
       }
     },
-    "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
+    "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj",
+        "projectUniqueName": "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj",
         "projectName": "ETCP.ToolKits",
-        "projectPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj",
-        "packagesPath": "C:\\Users\\Administrator\\.nuget\\packages\\",
-        "outputPath": "E:\\Program\\DotNet\\ETCP\\ETCP\\src\\ETCP.ToolKits\\obj\\",
+        "projectPath": "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\ETCP.ToolKits.csproj",
+        "packagesPath": "C:\\Users\\xk\\.nuget\\packages\\",
+        "outputPath": "F:\\项目代码\\ETCP\\src\\ETCP.ToolKits\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Administrator\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "F:\\项目代码\\NuGet.Config",
+          "C:\\Users\\xk\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -553,7 +602,9 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {},
+          "https://packagesource": {},
+          "https://www.myget.org/F/blazorise/api/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
